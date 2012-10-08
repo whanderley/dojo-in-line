@@ -1,0 +1,1 @@
+jogo = lambda x, y, jogadas = ('pedra', 'tesoura', 'papel'): (x==y and 'empate') or ((x == jogadas[jogadas.index(y) - 1] and x) or y) 
