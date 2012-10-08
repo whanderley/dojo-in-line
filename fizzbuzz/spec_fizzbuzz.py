@@ -2,6 +2,7 @@ import unittest
 from should_dsl import should
 from fizzbuzz import fizzbuzz
 
+
 class TestFizzBuzz(unittest.TestCase):
 
   def test_tres_retorna_fizz(self):
