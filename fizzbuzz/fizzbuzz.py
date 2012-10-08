@@ -1,0 +1,1 @@
+fizzbuzz = lambda n: (n%15==0 and "FizzBuzz") or (n%3==0 and "Fizz") or (n%5==0 and "Buzz") or n
