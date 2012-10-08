@@ -1,0 +1,1 @@
+collatz = lambda n, seq=[]: collatz(n/2, seq + [n]) if n%2==0 else seq + [1] if n==1 else collatz(3*n+1, seq + [n])
