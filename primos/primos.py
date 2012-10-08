@@ -1,0 +1,1 @@
+primos = lambda n: not(n == 0 or n == 1) and all(n % x != 0 for x in xrange(2, n))
